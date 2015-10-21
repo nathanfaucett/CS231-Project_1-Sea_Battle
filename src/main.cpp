@@ -5,14 +5,11 @@
 #include <iomanip>
 using namespace std;
 
-#include "./grid.cpp"
+#include "./game.cpp"
 
 
 int main(int argc, char** argv) {
     srand(time(NULL));
-
-    Grid grid;
-    grid.init_ships();
-
+    Game game;
     return 0;
 }
