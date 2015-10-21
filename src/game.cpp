@@ -49,8 +49,6 @@ void Game::loop(void) {
 		cout << "Was this a (M)iss, a (H)it, or a (S)ink? ";
 		cout << '\n';
 
-		cout << column << ',' << row << '\n';
-
 		while (true) {
 			cin >> value;
 			value = toupper(value);
