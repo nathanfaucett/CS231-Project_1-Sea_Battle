@@ -130,8 +130,8 @@ void get_input(int& column, int& row) {
 		}
 
 		if (
-			(c >= 'A' && c <= ('A' + GRID_SIZE)) &&
-			r > 0 && r <= GRID_SIZE
+			(c >= 'A' && c < ('A' + GRID_SIZE)) &&
+			(r > 0 && r <= GRID_SIZE)
 		) {
 			column = (c - 'A') + 1;
 			row = r;
