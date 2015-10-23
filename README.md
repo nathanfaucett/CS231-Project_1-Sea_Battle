@@ -9,15 +9,16 @@ At the start of a game, both players launch the Sea Battle program on their own 
 
 The complement of ships in each player's fleet is as follows:
 
-```bash
 Quantity	Ship Type	Squares	Code
 1	Aircraft Carrier	5	A
 1	Battleship	4	B
 2	Cruiser	3	C
 2	Submarine	3	S
 3	Patrol Boat	2	P
+
 The squares occupied by each ship are indicated by their respective letter codes within the primary grid.  As the players take their shots, the target squares are marked with a "/" (a "splash mark") if the shot was a miss, or an "X" (a "bang mark") if the shot resulted in a hit or a sink.  See the example shown below, which depicts the output from the first few turns of a typical game.  The player's input is shown in bold.
 
+```bash
 Welcome to SEA BATTLE!
 
 Will you take the first turn (Y/N)? y
